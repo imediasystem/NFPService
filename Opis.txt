@@ -1,0 +1,31 @@
+Strona główna:
+
+Nagłówek: "Profesjonalni pracownicy stoczniowi na wyciągnięcie ręki! Spawacze, monterzy, elektrycy – gotowi do pracy."
+Krótki opis: "Jesteśmy liderem w dostarczaniu wykwalifikowanych pracowników stoczniowych. Nasza firma specjalizuje się w wynajmie doświadczonych spawaczy, precyzyjnych monterów i kompetentnych elektryków. Zapewniamy terminowość, profesjonalizm i najwyższą jakość usług."
+Sekcja "Dlaczego my?":
+"Doświadczenie i profesjonalizm: 10 lat na rynku, setki zadowolonych klientów."
+"Wykwalifikowana kadra: Nasi pracownicy posiadają niezbędne certyfikaty i uprawnienia."
+"Elastyczność: Dostosowujemy się do indywidualnych potrzeb każdego klienta."
+"Terminowość: Gwarantujemy realizację zleceń na czas."
+"Bezpieczeństwo: Nasi pracownicy przestrzegają wszelkich norm bezpieczeństwa."
+Podstrona "Usługi":
+
+Spawacze:
+"Oferujemy wynajem wykwalifikowanych spawaczy z doświadczeniem w spawaniu różnymi metodami (MIG/MAG, TIG, MMA). Nasi spawacze posiadają aktualne certyfikaty i uprawnienia."
+Monterzy:
+"Zapewniamy doświadczonych monterów konstrukcji stalowych, rurociągów i innych elementów stoczniowych. Nasi monterzy pracują zgodnie z rysunkiem technicznym i izometrycznym."
+Elektrycy:
+"Dostarczamy wykwalifikowanych elektryków z uprawnieniami SEP, specjalizujących się w instalacjach elektrycznych na statkach i platformach wiertniczych."
+Podstrona "O nas":
+
+"Jesteśmy firmą z 10-letnim doświadczeniem w branży stoczniowej. Specjalizujemy się w dostarczaniu wykwalifikowanych pracowników na potrzeby stoczni i zakładów produkcyjnych. Nasza kadra składa się z doświadczonych spawaczy, monterów i elektryków, którzy posiadają niezbędne certyfikaty i uprawnienia. Zapewniamy terminowość, profesjonalizm i najwyższą jakość usług. Naszym celem jest zadowolenie klienta i budowanie długotrwałych relacji biznesowych."
+Podstrona "Kontakt":
+
+"Skontaktuj się z nami, aby omówić szczegóły współpracy. Jesteśmy gotowi odpowiedzieć na wszystkie Twoje pytania i dostosować ofertę do Twoich indywidualnych potrzeb."
+Formularz kontaktowy, dane kontaktowe(numer telefonu, e-mail, adres siedziby).
+Dodatkowe elementy:
+
+Referencje od zadowolonych klientów.
+Certyfikaty i uprawnienia pracowników.
+Galeria zdjęć z realizacji projektów.
+Sekcja z najczęściej zadawanymi pytaniami(FAQ).
