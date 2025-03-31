@@ -10,7 +10,8 @@
     box-shadow: none;
 }
 
-body, html {
+body,
+html {
     font-family: Rubik, sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -22,27 +23,28 @@ body, html {
     text-align: center;
 }
 
-a, a:hover {
-  text-decoration: none;
-  color: #333f48;
+a,
+a:hover {
+    text-decoration: none;
+    color: #333f48;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 section {
-  position: relative;
-  padding: 75px 0 0 0;
+    position: relative;
+    padding: 75px 0 0 0;
 }
 
 .container {
-  position: relative;
-  width: 100%;
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 0 20px;
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Global text Styles */
@@ -75,6 +77,10 @@ h2::after {
     bottom: 10px;
     box-shadow: 0.1em 0.1em 0.1em gray;
     border-radius: 50%;
+}
+
+.section-title {
+    margin: 0 0 30px 0;
 }
 
 /* ---- Navigation Menu ---- */
@@ -211,4 +217,86 @@ h2::after {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+}
+
+/* ---- Offer ---- */
+
+.features-wrapper {
+    display: flex;
+}
+
+.feature {
+    flex: 27.33%;
+    max-width: 27.33%;
+    text-align: center;
+    margin: 3%;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 10px 4px grey;
+    border-radius: 5px;
+}
+
+.feature i {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin: 30px;
+    background: #234670;
+    border-radius: 50%;
+    box-shadow: 2px 4px 10px 4px grey;
+    color: #f3f3f3;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.feature i:hover {
+    background-color: #444444;
+    animation: faiconsanimation 2s;
+}
+
+@keyframes faiconsanimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    15% {
+        transform: translateY(-0.75em);
+    }
+
+    30% {
+        transform: translateY(0.3em);
+    }
+
+    45% {
+        transform: translateY(-0.15em);
+    }
+
+    60% {
+        transform: translateY(0);
+    }
+}
+
+.feature-description {
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 30px 10px 20px 10px;
+}
+
+.feature-title {
+    position: relative;
+    font-family: "Varela Round", Sans-Serif;
+    font-weight: 600;
+}
+
+.feature-title:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 60%;
+    height: 2px;
+    background: #444444;
+    left: 20%;
+    bottom: -10px;
+    box-shadow: 2px 4px 10px 4px grey;
+    border-radius: 100%;
 }
