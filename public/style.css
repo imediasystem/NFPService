@@ -299,3 +299,31 @@ h2::after {
     box-shadow: 2px 4px 10px 4px grey;
     border-radius: 50%;
 }
+
+
+/* ---- Footer ---- */
+
+
+.page-footer {
+    background-color: #333f48;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.page-footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer p {
+    color: #f3f3f3;
+    font-size: clamp(0.5rem, 6vw, 1rem);
+    margin: 0;
+}
+
+.page-footer a {
+    color: #000000;
+    text-shadow: 0.1em 0.1em 0.1em grey;
+}
