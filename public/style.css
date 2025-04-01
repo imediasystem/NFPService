@@ -64,6 +64,7 @@ h2 {
     font-weight: bold;
     color: #333f48;
     text-shadow: 0.1em 0.1em 0.1em gray;
+    margin: 0 0 30px 0;
 }
 
 h2::after {
@@ -75,13 +76,10 @@ h2::after {
     background: #333f48;
     left: 35%;
     bottom: 10px;
-    box-shadow: 0.1em 0.1em 0.1em gray;
+    box-shadow: 2px 4px 10px 4px grey;
     border-radius: 50%;
 }
 
-.section-title {
-    margin: 0 0 30px 0;
-}
 
 /* ---- Navigation Menu ---- */
 
@@ -92,7 +90,7 @@ h2::after {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 0 25px;
+    padding: 0 0 0 15px;
     transition: 0.5s;
     z-index: 9;
 }
@@ -248,7 +246,7 @@ h2::after {
 }
 
 .feature i:hover {
-    background-color: #444444;
+    background-color: #333f48;
     animation: faiconsanimation 2s;
 }
 
@@ -286,6 +284,7 @@ h2::after {
     position: relative;
     font-family: "Varela Round", Sans-Serif;
     font-weight: 600;
+    text-shadow: 0.1em 0.1em 0.1em gray;
 }
 
 .feature-title:after {
@@ -294,9 +293,9 @@ h2::after {
     content: "";
     width: 60%;
     height: 2px;
-    background: #444444;
+    background: #333f48;
     left: 20%;
-    bottom: -10px;
+    bottom: -5px;
     box-shadow: 2px 4px 10px 4px grey;
-    border-radius: 100%;
+    border-radius: 50%;
 }
