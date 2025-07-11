@@ -303,17 +303,22 @@ p {
 /* ---- Praca ---- */
 
 .features-wrapper {
-    display: flex;
+    
 }
 
 .feature {
-    flex: 23%;
-    max-width: 23%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    max-width: 98%;
     text-align: center;
-    margin: 1%;
+    margin: 10% 5%;
     background-color: #ffffff;
     box-shadow: 2px 4px 10px 4px grey;
     border-radius: 5px;
+}
+
+.feature:last-child {
+    margin-bottom: 0;
 }
 
 .feature i {
@@ -383,7 +388,26 @@ p {
     border-radius: 50%;
 }
 
+@media screen and (min-width: 834px) {
+    
+    .features-wrapper {
+    display: flex;
+    }
 
+    .feature {
+    flex: 23%;
+    max-width: 23%;
+    text-align: center;
+    margin: 1%;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 10px 4px grey;
+    border-radius: 5px;
+    }
+
+    .feature:last-child {
+    margin-bottom: 1%;
+    }
+}
 
 
 
