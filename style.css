@@ -75,7 +75,6 @@ h2::after {
     height: 3px;
     background: #333f48;
     left: 35%;
-    bottom: 10px;
     box-shadow: 2px 4px 10px 4px grey;
     border-radius: 50%;
 }
@@ -94,14 +93,14 @@ p {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 0 25px;
+    padding: 0 10px;
     transition: 0.5s;
     z-index: 9;
 }
 
 .logo a img {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 .navigation {
@@ -251,16 +250,21 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 380px 0;
     height: 100vh;
+    
+}
+
+.banner-box {
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: bottom;
+    justify-content: flex-end;
+    
 }
 
 .banner h2 {
     color: #f3f3f3;
-    font-size: clamp(2rem, 6vw, 5rem);
+    font-size: clamp(1.5rem, 6vw, 5rem);
     font-weight: bold;
     text-align: center;
     text-shadow: 0.1em 0.1em 0.1em black;
@@ -282,7 +286,7 @@ p {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.8);
     color: #f3f3f3;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.2rem;
     text-align: center;
     border: 2px solid #f3f3f3;
     border-radius: 10px;
