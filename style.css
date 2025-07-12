@@ -246,8 +246,8 @@ p {
 /* ---- Banner ---- */
 
 .banner {
-    background: url("img/shipyard_01.jpg ");
-    background-position: center;
+    background: url("img/shipyard_04.jpg ");
+    background-position: 65%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -298,6 +298,18 @@ p {
 .banner a:hover {
     color: grey;
     background-color: rgba(0, 0, 0, 1.0);
+}
+
+/* ---- Firma ---- */
+
+.company p {
+    padding: 0 4px;
+}
+
+.foto {
+    max-width: 98%;
+    border-radius: 10px;
+    margin-top: 30px;
 }
 
 /* ---- Praca ---- */
