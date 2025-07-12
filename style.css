@@ -12,8 +12,8 @@
 
 body,
 html {
-    font-family: Rubik, sans-serif;
-    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
     font-size: 16px;
     color: #333f48;
     line-height: 1.7;
@@ -81,6 +81,7 @@ h2::after {
 
 p {
     font-weight: bold;
+    
 }
 
 
@@ -310,6 +311,7 @@ p {
     max-width: 98%;
     border-radius: 10px;
     margin-top: 30px;
+    box-shadow: 2px 4px 10px 4px grey;
 }
 
 /* ---- Praca ---- */
@@ -421,7 +423,31 @@ p {
     }
 }
 
+/* ---- Gallery ---- */
 
+.carousel {
+  margin: 40px 15px;
+  
+}
+
+.carousel-cell {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  
+}
+
+.carousel-cell img {
+  display: block;
+  height: 200px;
+  
+}
+
+@media screen and (min-width: 834px) {
+    .carousel-cell img {
+    height: 400px;
+  }
+}
 
 /* ---- Footer ---- */
 
